@@ -1,15 +1,15 @@
 {
-  "name": "handsontable",
-  "description": "Spreadsheet-like data grid editor that provides copy/paste functionality compatible with Excel/Google Docs",
+  "name": "@reactual/handsontable",
+  "description": "Spreadsheet-like data grid editor",
   "homepage": "http://handsontable.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/handsontable/handsontable.git"
+    "url": "https://github.com/reactual/handsontable.git"
   },
   "bugs": {
-    "url": "https://github.com/handsontable/handsontable/issues"
+    "url": "https://github.com/reactual/handsontable/issues"
   },
-  "author": "Handsoncode <hello@handsontable.com>",
+  "author": "Reactual <github@reactual.io>",
   "version": "0.34.5",
   "browser": "dist/handsontable.js",
   "main": "commonjs/index.js",
@@ -39,25 +39,10 @@
     "watch": "cross-env BABEL_ENV=commonjs NODE_ENV=watch env-cmd ./hot.config.js webpack --hide-modules --watch src/index.js",
     "prepublish": "npm run clean && npm run build:commonjs && npm run build:es"
   },
-  "keywords": [
-    "data",
-    "grid",
-    "table",
-    "editor",
-    "grid-editor",
-    "data-grid",
-    "data-table",
-    "spreadsheet",
-    "excel",
-    "tabular-data",
-    "edit-cell",
-    "editable-table",
-    "data-spreadsheet"
-  ],
   "dependencies": {
-    "moment": "2.18.1",
+    "moment": "2.19.1",
     "numbro": "1.11.0",
-    "pikaday": "1.5.1"
+    "pikaday": "1.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
