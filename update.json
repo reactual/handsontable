@@ -2,7 +2,7 @@
   "COMMENT": "This is a update.json file used by jsDelivr.com CDN",
   "packageManager": "github",
   "name": "handsontable",
-  "repo": "handsontable/handsontable",
+  "repo": "reactual/handsontable",
   "files": {
     "include": ["./dist/*.js", "./plugins/**/*.js", "./plugins/**/*.css"],
     "exclude": ["./plugins/**/*spec*"]
